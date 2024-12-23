@@ -1,0 +1,35 @@
+name: pro
+description: A new Flutter project.
+
+# Prevents accidental publishing to pub.dev.
+publish_to: 'none'
+
+# Version information for your application.
+version: 1.0.0+1
+
+# The environment section defines the required Dart SDK version.
+environment:
+  sdk: ^3.5.4
+
+# Dependencies specify other packages required for the app.
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+
+# Development-only dependencies, like testing packages and lint rules.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Flutter-specific configurations.
+flutter:
+  # Enables Material Icons for use in the application.
+  uses-material-design: true
+
+  # Asset declarations.
+  assets:
+    - assets/
+    - assets/max.jpeg
